@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arpita Gupta | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@300;400;500;600&family=Unbounded:wght@800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__logo">
+      <span class="nav__initials">AG.</span>
+      <span class="nav__tag">PORTFOLIO / 2026</span>
+    </div>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact" class="nav__cta">Let's talk <span class="arrow">↗</span></a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  HERO
+  <section class="hero" id="home">
+    <div class="hero__left">
+      <div class="hero__badge">
+        <span class="hero__dot"></span>
+        <span>OPEN TO OPPORTUNITIES</span>
+      </div>
+      <p class="hero__subtitle">AI ENGINEER IN THE MAKING &nbsp;★&nbsp; INDIA</p>
+      <h1 class="hero__name">
+        <span class="hero__first">Arpita</span>
+        <span class="hero__last">Gupta<span class="hero__dot--accent">.</span></span>
+      </h1>
+      <p class="hero__desc">
+        I build <strong>intelligent systems</strong>, explore hard problems, and turn ideas into products. Computer
+        Science undergraduate at <strong>Usha Mittal Institute of Technology, Mumbai</strong>, interested in AI agents,
+        full-stack development, software and open-source
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">Explore my work <span class="arrow">↗</span></a>
+        <a href="https://www.linkedin.com/in/arpita-gupta1" target="_blank" class="btn btn--ghost">Connect on LinkedIn
+          <span class="arrow">↗</span></a>
+      </div>
+      <div class="hero__socials">
+        <a href="https://github.com/guptaarpita" target="_blank" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+          </svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/arpita-gupta1" target="_blank" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+          LinkedIn
+        </a>
+        <a href="https://leetcode.com/u/guptaarpita/" target="_blank" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 4.858 3.57 5.961 5.961 0 0 0 2.427-.306l4.13-1.628 4.783-1.883a1.49 1.49 0 0 0 .937-1.398 1.498 1.498 0 0 0-.937-1.403l-4.783-1.884-4.13-1.628a3.02 3.02 0 0 1-1.218-.153 3.03 3.03 0 0 1-2.45-1.785 3.085 3.085 0 0 1-.177-.52 2.97 2.97 0 0 1-.031-1.205 2.87 2.87 0 0 1 .632-1.123l3.854-4.126 5.406-5.788A1.374 1.374 0 0 0 13.483 0z" />
+          </svg>
+          LeetCode
+        </a>
+        <a href="mailto:arpitagupta2504@gmail.com" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+          </svg>
+          Email
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__right">
+      <div class="hero__orb-wrap">
+        <div class="orb">
+          <div class="orb__ring orb__ring--1"></div>
+          <div class="orb__ring orb__ring--2"></div>
+          <div class="orb__ring orb__ring--3"></div>
+          <div class="orb__center">
+            <span class="orb__label">AG</span>
+          </div>
+        </div>
+        <div class="hero__card hero__card--top">
+          <span class="card-dot"></span>
+          <span class="card-label">Fewer demos, more products</span>
+        </div>
+        <div class="hero__card hero__card--bottom">
+          <div class="latest-build">
+            <span class="latest-build__label">LAST FIX</span>
+            <span class="latest-build__name">One query, 12 seconds down to 80 ms</span>
+            <span class="latest-build__status"><span class="dot-pulse"></span> Status: tested and shipped</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__floating-stack">
+        <span class="fstack-label">STACK</span>
+        <div class="fstack-pills">
+          <span>Python</span><span>FastAPI</span><span>LangGraph</span><span>React</span><span>PostgreSQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPLORE BAR (between home and about) -->
+  <div class="explore-bar">
+    <div class="explore-bar__inner">
+      <div class="explore-bar__left">
+        <span class="explore-pill">CSE '27</span>
+        <span class="explore-sep">/</span>
+        <span class="explore-detail">UMIT MUMBAI</span>
+      </div>
+      <a href="#about" class="explore-bar__right">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="explore-arrow">↓</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section__inner">
+      <div class="section__tag">01 — ABOUT</div>
+      <div class="about__split">
+        <div class="about__left">
+          <h2 class="about__statement">
+            Engineering<br>Systems<br>
+            <span class="accent-text">That Actually<br>Ship.</span>
+          </h2>
+        </div>
+        <div class="about__right">
+          <p class="about__lead">
+            I'm <strong>Arpita Gupta</strong>, a B.Tech Computer Science and Technology undergraduate (Minor: Embedded
+            Systems) at <strong>Usha Mittal Institute of Technology, Mumbai</strong> — graduating in 2027 with a CGPA of
+            <strong>8.91</strong>.
+          </p>
+          <p>
+            I love building at the intersection of AI orchestration, systems-level architecture, and real-world product
+            impact. From designing AI-powered chatbots for Deutsche Bank's Market Risk teams to shipping
+            production-grade WhatsApp automation at BuzzGeeks — I thrive where robust engineering meets consequence.
+          </p>
+          <p>
+            Beyond enterprise systems, I actively contribute to open source through Google Summer of Code (GSoC 2026)
+            with OSGeo, compete in hackathons (SpaceSpirit Winner & DB Global Hackathon), and solve algorithmic
+            challenges across LeetCode and Codeforces.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METRICS STRIP (below about) -->
+  <section class="metrics-strip">
+    <div class="metrics-strip__inner">
+      <div class="metric-col">
+        <div class="metric-num">20<span class="metric-symbol">+</span></div>
+        <p class="metric-desc">Problems workflows authored & Merged</p>
+        <h4 class="metric-label">MERCOR</h4>
+      </div>
+      <div class="metric-col">
+        <div class="metric-num">95%<span class="metric-symbol"></span></div>
+        <p class="metric-desc">Automated System</p>
+        <h4 class="metric-label">DEUTSCHE BANK</h4>
+      </div>
+      <div class="metric-col">
+        <div class="metric-num">80<span class="metric-symbol">%</span></div>
+        <p class="metric-desc">Manual processing reduced</p>
+        <h4 class="metric-label">LOGISTICS AUTOMATION</h4>
+      </div>
+      <div class="metric-col">
+        <div class="metric-num">1,000<span class="metric-symbol">+</span></div>
+        <p class="metric-desc">Hackers competed alongside</p>
+        <h4 class="metric-label">DEVCON GLOBAL</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="section__inner">
+      <div class="section__tag">02 — EXPERIENCE</div>
+      <h2 class="section__title">Where I've Worked</h2>
+      <div class="timeline">
+
+        <div class="timeline__item" data-index="01">
+          <div class="timeline__meta">
+            <span class="timeline__date">Oct 2026 — Present</span>
+            <span class="timeline__location">Remote</span>
+          </div>
+          <div class="timeline__body">
+            <div class="timeline__header">
+              <h3>Odin Writer</h3>
+              <span class="timeline__company">Mercor</span>
+            </div>
+            <ul class="timeline__points">
+              <li>Designed AI-driven flowcharts compatible across macOS and Windows, mapping cross-platform workflows
+                and task logic.</li>
+              <li>Demonstrated assembly-level implementations for system integration, turning high-level flows into
+                low-level execution steps.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span>AI</span><span>Flowcharts</span><span>Cross-Platform</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-index="02">
+          <div class="timeline__meta">
+            <span class="timeline__date">Jun 2026 — Jul 2026</span>
+            <span class="timeline__location">Pune, India</span>
+          </div>
+          <div class="timeline__body">
+            <div class="timeline__header">
+              <h3>AI Engineer Intern</h3>
+              <span class="timeline__company">Deutsche Bank</span>
+            </div>
+            <ul class="timeline__points">
+              <li>Owned end-to-end development of an AI-powered chatbot backend for Market Risk teams — from design to
+                deployment — letting non-technical analysts query datasets without SDK code.</li>
+              <li>Built an AI-powered SDLC agent unifying <strong>8+ enterprise tools</strong> (Jira, Confluence,
+                ServiceNow, GitHub, SonarQube, Veracode, Waltz, DBE) into one automated workflow, built in 24 hours at
+                Deutsche Bank's Global Hackathon.</li>
+              <li>Collaborated with senior engineers in an Agile environment to develop, test, and optimize backend
+                services using Git and JIRA.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span>Python</span><span>FastAPI</span><span>LangGraph</span><span>Gemini</span><span>RAG</span><span>FAISS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-index="03">
+          <div class="timeline__meta">
+            <span class="timeline__date">May 2025 — Aug 2025</span>
+            <span class="timeline__location">Mumbai, India</span>
+          </div>
+          <div class="timeline__body">
+            <div class="timeline__header">
+              <h3>Technical Developer Intern</h3>
+              <span class="timeline__company">BuzzGeeks</span>
+            </div>
+            <ul class="timeline__points">
+              <li>Expanded WhatsApp automation solutions using the WhatsApp Business API to automate customer
+                communication workflows.</li>
+              <li>Built notification and customer support workflows, reducing manual intervention and improving
+                response
+                consistency.</li>
+              <li>Integrated REST APIs and webhooks to automate real-time data exchange between business applications.
+              </li>
+            </ul>
+            <div class="timeline__tags">
+              <span>WhatsApp API</span><span>REST APIs</span><span>Webhooks</span><span>Automation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="section__inner">
+      <div class="section__tag">03 — PROJECTS</div>
+      <h2 class="section__title">Things I've Built</h2>
+      <div class="projects__grid">
+
+        <div class="project-card project-card--featured">
+          <div class="project-card__featured-header">
+            <div class="featured-header__left">
+              <span class="project-card__num">01</span>
+              <span class="featured-badge">FEATURED PROJECT</span>
+            </div>
+            <span class="featured-org">DEUTSCHE BANK · 2026</span>
+          </div>
+
+          <div class="project-card__featured-body">
+            <div class="project-card__content">
+              <h3 class="featured-title">AI Chatbot for Market Risk</h3>
+              <p class="project-card__desc">
+                Conversational assistant developed for Market Risk teams that transforms natural language
+                inquiries into executable Python SDK scripts — eliminating manual dataset exploration and
+                accelerating analyst workflows.
+              </p>
+              <ul class="project-card__bullets">
+                <li><strong>Dual RAG Pipeline:</strong> Uses FAISS vector indexing across dataset schemas and
+                  SDK documentation for grounded script generation.</li>
+                <li><strong>Multi-stage Execution:</strong> Orchestrated with FastAPI, LangGraph, and Gemini
+                  2.5 Flash to generate, validate, and execute sandbox queries.</li>
+                <li><strong>Enterprise REST APIs:</strong> Delivers validated JSON payloads and tabular risk
+                  analytics securely.</li>
+              </ul>
+              <div class="project-card__stack">
+                <span>Python</span><span>FastAPI</span><span>LangGraph</span><span>Gemini 2.5
+                  Flash</span><span>FAISS</span><span>RAG</span>
+              </div>
+            </div>
+
+            <div class="project-card__visual">
+              <div class="code-block">
+                <div class="code-block__header">
+                  <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                  <span class="code-block__title">market_risk_agent.py</span>
+                </div>
+                <pre><code><span class="kw">from</span> langgraph.graph <span class="kw">import</span> StateGraph
+<span class="kw">import</span> google.genai <span class="kw">as</span> genai
+<span class="kw">from</span> faiss <span class="kw">import</span> IndexFlatL2
+
+                        <span class="fn">@agent.node</span>(<span class="str">"retrieve"</span>)
+                        <span class="kw">def</span> <span class="fn">dual_rag</span>(state: QueryState):
+                        schema = faiss_schemas.<span class="fn">search</span>(state.q)
+                        sdk_doc = faiss_docs.<span class="fn">search</span>(state.q)
+                        <span class="kw">return</span> {<span class="str">"context"</span>: [schema, sdk_doc]}
+
+                        <span class="fn">@agent.node</span>(<span class="str">"execute"</span>)
+                        <span class="kw">def</span> <span class="fn">execute_script</span>(state: ScriptState):
+                        <span class="kw">return</span> risk_sandbox.<span class="fn">run</span>(state.code)</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__num">02</div>
+          <div class="project-card__content">
+            <h3>Transport Management System</h3>
+            <p class="project-card__date">March 2026</p>
+            <p class="project-card__desc">Engineered a full-stack transport management system for customers,
+              vehicles,
+              trips, invoices and logistics via a role-based dashboard.</p>
+            <ul class="project-card__bullets">
+              <li>Computerized billing invoice generation and operational workflows, reducing manual processing
+                by
+                <strong>80%</strong>
+              </li>
+              <li>Improved overall business efficiency by <strong>60%</strong></li>
+              <li>Built scalable REST APIs with PostgreSQL storage, enabling secure CRUD operations and seamless
+                frontend-backend integration</li>
+            </ul>
+            <div class="project-card__stack">
+              <span>React.js</span><span>FastAPI</span><span>PostgreSQL</span><span>Tailwind CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__num">03</div>
+          <div class="project-card__content">
+            <h3>AI-Powered SDLC Agent</h3>
+            <p class="project-card__date">June 2026 · Deutsche Bank Hackathon</p>
+            <p class="project-card__desc">Built in 24 hours during Deutsche Bank's Global Hackathon — unified 8+
+              enterprise tools into a single automated workflow pipeline.</p>
+            <ul class="project-card__bullets">
+              <li>Integrated Jira, Confluence, ServiceNow, GitHub, SonarQube, Veracode, Waltz, and DBE</li>
+              <li>Automated end-to-end software lifecycle management with AI orchestration</li>
+            </ul>
+            <div class="project-card__stack">
+              <span>Python</span><span>LangChain</span><span>REST APIs</span><span>Agile Tools</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section achievements" id="achievements">
+    <div class="section__inner">
+      <div class="section__tag">04 — ACHIEVEMENTS</div>
+      <h2 class="section__title">Milestones</h2>
+      <div class="achievements__grid">
+
+        <div class="achievement-card achievement-card--highlight">
+          <div class="achievement-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6" />
+              <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
+            </svg>
+          </div>
+          <div class="achievement-card__content">
+            <h3>Google Summer of Code 2026</h3>
+            <p>Open Source Contributor at <strong>OSGeo</strong> — contributed to open-source geospatial software
+              during
+              one of the world's most competitive developer programs.</p>
+            <span class="achievement-card__year">May 2026</span>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+          </div>
+          <div class="achievement-card__content">
+            <h3>Deutsche Bank Global Hackathon</h3>
+            <p>Built an AI-powered SDLC agent integrating 8+ enterprise tools in 24 hours at Deutsche Bank's Global
+              Hackathon.</p>
+            <span class="achievement-card__year">June 2026</span>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <div class="achievement-card__content">
+            <h3>Academic Excellence</h3>
+            <p>Maintained a <strong>CGPA of 8.91</strong> in B.Tech Computer Science and Technology with Minor in
+              Embedded Systems at UMIT, Mumbai.</p>
+            <span class="achievement-card__year">2023 – 2027</span>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <div class="achievement-card__content">
+            <h3>DevCon — International Hackathon</h3>
+            <p>Participated in <strong>DevCon</strong>, a global hackathon with <strong>1000+ hackers</strong> from
+              across the world — competed, collaborated, and built innovative solutions under pressure alongside elite
+              developers.</p>
+            <span class="achievement-card__year">International · 1000+ Participants</span>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+            </svg>
+          </div>
+          <div class="achievement-card__content">
+            <h3>Placement Coordinator — UMIT</h3>
+            <p>Served as <strong>Placement Coordinator</strong> at Usha Mittal Institute of Technology — managed
+              end-to-end placement drives, bridged communication between students and recruiting companies, and
+              contributed to a measurable increase in campus placement rates.</p>
+            <span class="achievement-card__year">2024 – Present · UMIT, Mumbai</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLKIT (Section 05 - styled like reference) -->
+  <section class="section toolkit" id="toolkit">
+    <div class="section__inner">
+      <div class="section__tag">05 — MY TOOLKIT</div>
+      <div class="toolkit__grid">
+        <div class="toolkit__left">
+          <h2 class="toolkit__title">
+            Tools of<br>the trade<span class="dot-accent">.</span>
+          </h2>
+        </div>
+
+        <div class="toolkit__right">
+          <div class="toolkit__row">
+            <span class="toolkit__category">Languages</span>
+            <div class="toolkit__pills">
+              <span>C++</span>
+              <span>C</span>
+              <span>Python</span>
+              <span>Java</span>
+              <span>JavaScript</span>
+              <span>SQL</span>
+              <span>HTML/CSS</span>
+            </div>
+          </div>
+
+          <div class="toolkit__row">
+            <span class="toolkit__category">Frameworks & platforms</span>
+            <div class="toolkit__pills">
+              <span>FastAPI</span>
+              <span>React</span>
+              <span>Next.js</span>
+              <span>Tailwind CSS</span>
+              <span>Node.js</span>
+              <span>LangGraph</span>
+              <span>LangChain</span>
+              <span>NumPy</span>
+              <span>Pandas</span>
+            </div>
+          </div>
+
+          <div class="toolkit__row">
+            <span class="toolkit__category">AI / ML & Agents</span>
+            <div class="toolkit__pills">
+              <span>Gemini 2.5 Flash</span>
+              <span>RAG</span>
+              <span>AI Agents</span>
+              <span>Prompt Engineering</span>
+              <span>FAISS</span>
+              <span>LLM Orchestration</span>
+            </div>
+          </div>
+
+          <div class="toolkit__row">
+            <span class="toolkit__category">Tools & Databases</span>
+            <div class="toolkit__pills">
+              <span>PostgreSQL</span>
+              <span>MongoDB</span>
+              <span>Git</span>
+              <span>Linux</span>
+              <span>Docker</span>
+              <span>REST APIs</span>
+              <span>Webhooks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / LET'S TALK -->
+  <section class="section contact" id="contact">
+    <div class="section__inner">
+      <div class="section__tag">06 — LET'S TALK</div>
+      <div class="contact__box">
+        <h2 class="contact__heading">
+          Let's make <span class="accent">something matter.</span>
+        </h2>
+        <p class="contact__sub">
+          Open to collaborating with people on interesting projects, and talking about software, systems, code, and open
+          source.
+        </p>
+
+        <div class="contact__cta-wrap">
+          <a href="mailto:arpitagupta2504@gmail.com" class="btn btn--primary btn--lg">
+            Say hello <span class="arrow">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/arpita-gupta1" target="_blank" class="btn btn--ghost btn--lg">
+            Connect on LinkedIn <span class="arrow">↗</span>
+          </a>
+        </div>
+
+        <div class="contact__links-bar">
+          <a href="mailto:arpitagupta2504@gmail.com" class="c-link">
+            <span class="c-link__dot"></span>
+            <span class="c-link__label">EMAIL</span>
+            <span class="c-link__val">arpitagupta2504@gmail.com</span>
+          </a>
+          <a href="https://github.com/guptaarpita" target="_blank" class="c-link">
+            <span class="c-link__dot"></span>
+            <span class="c-link__label">GITHUB</span>
+            <span class="c-link__val">guptaarpita</span>
+          </a>
+          <a href="https://leetcode.com/u/guptaarpita/" target="_blank" class="c-link">
+            <span class="c-link__dot"></span>
+            <span class="c-link__label">LEETCODE</span>
+            <span class="c-link__val">guptaarpita</span>
+          </a>
+        </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo">AG.</div>
+      <p class="footer__copy">© 2026 Arpita Gupta. Designed & built with love and lots of coffee.</p>
+      <div class="footer__links">
+        <a href="https://github.com/guptaarpita" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/arpita-gupta1" target="_blank">LinkedIn</a>
+        <a href="https://leetcode.com/u/guptaarpita/" target="_blank">LeetCode</a>
+        <a href="mailto:arpitagupta2504@gmail.com">Email</a>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
