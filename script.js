@@ -59,6 +59,7 @@ document.addEventListener('click', (e) => {
   if (mobileMenu && mobileMenu.classList.contains('open')) {
     if (!mobileMenu.contains(e.target) && !burger.contains(e.target)) {
       mobileMenu.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
     }
   }
 });
