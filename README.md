@@ -2,7 +2,7 @@
 
 Modern, high-performance developer portfolio built with clean semantic HTML5, modern vanilla CSS, and vanilla JavaScript.
 
-- **Live URL**: https://guptaarpita.github.io/arpitaguptaportfolio/
+- **Live URL**: https://guptaarpita-portfolio.vercel.app/
 - **Portfolio / Year**: 2026
 - **Architecture**: Lightweight single-page application (zero npm dependencies, zero build step)
 
