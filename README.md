@@ -7,7 +7,7 @@
 
 A modern, high-performance developer portfolio built with semantic HTML5, modern vanilla CSS, and lightweight vanilla JavaScript. Designed around a dark, builder-first aesthetic inspired by systems engineering, agentic AI workflows, and minimalist developer tools.
 
-🌐 **Live URL**: [https://guptaarpita.github.io/arpitaguptaportfolio/](https://guptaarpita.github.io/arpitaguptaportfolio/)
+🌐 **Live URL**: [https://guptaarpita-portfolio.vercel.app/)
 
 ---
 
